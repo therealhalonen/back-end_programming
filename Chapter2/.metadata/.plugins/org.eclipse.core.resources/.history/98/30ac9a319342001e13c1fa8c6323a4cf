@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Thymeleaf</title>
+</head>
+<body>
+    <div th:if="${isAdult}">
+        <p>Welcome <span th:text="${name}"></span>!</p>
+    </div>
+    <div th:unless="${isAdult}">
+        <p>You are too young</p>
+    </div>
+</body>
+</html>

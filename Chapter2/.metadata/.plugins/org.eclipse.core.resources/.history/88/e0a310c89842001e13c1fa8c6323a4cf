@@ -1,0 +1,5 @@
+package s23.vko2.domain;
+
+public class Student {
+
+}

@@ -1,0 +1,9 @@
+package your.package.name.domain;
+
+public class Student {
+
+    private String firstName;
+    private String lastName;
+
+    // Constructors, getters, setters
+}
